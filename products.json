@@ -1,0 +1,304 @@
+[
+  {
+    "name": "iPhone 15 Pro",
+    "price": 129999,
+    "description": "Apple flagship smartphone with A17 Pro chip",
+    "category": "electronics",
+    "stock": 25,
+    "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": []
+  },
+  {
+    "name": "Samsung Galaxy S24 Ultra",
+    "price": 119999,
+    "description": "Premium Android smartphone with AI features",
+    "category": "electronics",
+    "stock": 30,
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviews": []
+  },
+  {
+    "name": "OnePlus 12",
+    "price": 64999,
+    "description": "Fast performance smartphone with AMOLED display",
+    "category": "electronics",
+    "stock": 40,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.7,
+    "reviews": []
+  },
+  {
+    "name": "Sony WH-1000XM5",
+    "price": 29999,
+    "description": "Wireless noise cancelling headphones",
+    "category": "electronics",
+    "stock": 20,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviews": []
+  },
+  {
+    "name": "Dell XPS 15",
+    "price": 189999,
+    "description": "High performance ultrabook laptop",
+    "category": "electronics",
+    "stock": 15,
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.7,
+    "reviews": []
+  },
+  {
+    "name": "HP Pavilion Gaming Laptop",
+    "price": 79999,
+    "description": "Gaming laptop with RTX graphics",
+    "category": "electronics",
+    "stock": 18,
+    "image": "https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.6,
+    "reviews": []
+  },
+  {
+    "name": "Apple Watch Series 9",
+    "price": 45999,
+    "description": "Advanced smartwatch with health tracking",
+    "category": "electronics",
+    "stock": 35,
+    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviews": []
+  },
+  {
+    "name": "Canon EOS R50",
+    "price": 74999,
+    "description": "Mirrorless camera for photography lovers",
+    "category": "electronics",
+    "stock": 12,
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.7,
+    "reviews": []
+  },
+  {
+    "name": "Boat Rockerz 550",
+    "price": 2499,
+    "description": "Affordable wireless headphones",
+    "category": "electronics",
+    "stock": 60,
+    "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.4,
+    "reviews": []
+  },
+  {
+    "name": "Mi Smart TV 55 Inch",
+    "price": 42999,
+    "description": "4K Ultra HD Smart Television",
+    "category": "electronics",
+    "stock": 10,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.5,
+    "reviews": []
+  },
+
+  {
+    "name": "Men's Denim Jacket",
+    "price": 2499,
+    "description": "Stylish blue denim jacket",
+    "category": "clothing",
+    "stock": 45,
+    "image": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.5,
+    "reviews": []
+  },
+  {
+    "name": "Women's Summer Dress",
+    "price": 1999,
+    "description": "Floral printed casual dress",
+    "category": "clothing",
+    "stock": 50,
+    "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.6,
+    "reviews": []
+  },
+  {
+    "name": "Men's Black Hoodie",
+    "price": 1599,
+    "description": "Warm cotton hoodie for winter",
+    "category": "clothing",
+    "stock": 70,
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.4,
+    "reviews": []
+  },
+  {
+    "name": "Women's Handbag",
+    "price": 2999,
+    "description": "Elegant leather handbag",
+    "category": "clothing",
+    "stock": 30,
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.7,
+    "reviews": []
+  },
+  {
+    "name": "Men's Running Shoes",
+    "price": 3499,
+    "description": "Comfortable sports running shoes",
+    "category": "clothing",
+    "stock": 40,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.6,
+    "reviews": []
+  },
+  {
+    "name": "Women's Kurti",
+    "price": 1299,
+    "description": "Traditional cotton kurti",
+    "category": "clothing",
+    "stock": 55,
+    "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.5,
+    "reviews": []
+  },
+  {
+    "name": "Men's Formal Shirt",
+    "price": 1499,
+    "description": "Slim fit office wear shirt",
+    "category": "clothing",
+    "stock": 65,
+    "image": "https://images.unsplash.com/photo-1603252109303-2751441dd157?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.4,
+    "reviews": []
+  },
+  {
+    "name": "Women's Sneakers",
+    "price": 2799,
+    "description": "Stylish everyday sneakers",
+    "category": "clothing",
+    "stock": 35,
+    "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.6,
+    "reviews": []
+  },
+  {
+    "name": "Men's T-Shirt Pack",
+    "price": 999,
+    "description": "Pack of 3 cotton t-shirts",
+    "category": "clothing",
+    "stock": 90,
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.3,
+    "reviews": []
+  },
+  {
+    "name": "Women's Winter Coat",
+    "price": 4999,
+    "description": "Premium wool winter coat",
+    "category": "clothing",
+    "stock": 20,
+    "image": "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviews": []
+  },
+
+  {
+    "name": "Harry Potter and the Sorcerer's Stone",
+    "price": 699,
+    "description": "Fantasy novel by J.K. Rowling",
+    "category": "books",
+    "stock": 50,
+    "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": []
+  },
+  {
+    "name": "The Alchemist",
+    "price": 399,
+    "description": "Inspirational novel by Paulo Coelho",
+    "category": "books",
+    "stock": 60,
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.7,
+    "reviews": []
+  },
+  {
+    "name": "Atomic Habits",
+    "price": 599,
+    "description": "Self improvement book by James Clear",
+    "category": "books",
+    "stock": 45,
+    "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviews": []
+  },
+  {
+    "name": "Rich Dad Poor Dad",
+    "price": 499,
+    "description": "Personal finance book by Robert Kiyosaki",
+    "category": "books",
+    "stock": 70,
+    "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.6,
+    "reviews": []
+  },
+  {
+    "name": "Think and Grow Rich",
+    "price": 349,
+    "description": "Classic success philosophy book",
+    "category": "books",
+    "stock": 80,
+    "image": "https://images.unsplash.com/photo-1526243741027-444d633d7365?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.5,
+    "reviews": []
+  },
+  {
+    "name": "The Psychology of Money",
+    "price": 549,
+    "description": "Book on wealth and financial behavior",
+    "category": "books",
+    "stock": 55,
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviews": []
+  },
+  {
+    "name": "Ikigai",
+    "price": 450,
+    "description": "Japanese concept for meaningful life",
+    "category": "books",
+    "stock": 65,
+    "image": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.7,
+    "reviews": []
+  },
+  {
+    "name": "The Hobbit",
+    "price": 799,
+    "description": "Fantasy adventure by J.R.R. Tolkien",
+    "category": "books",
+    "stock": 35,
+    "image": "https://images.unsplash.com/photo-1511108690759-009324a90311?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": []
+  },
+  {
+    "name": "To Kill a Mockingbird",
+    "price": 599,
+    "description": "Classic novel by Harper Lee",
+    "category": "books",
+    "stock": 40,
+    "image": "https://images.unsplash.com/photo-1474932430478-367dbb6832c1?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviews": []
+  },
+  {
+    "name": "The Silent Patient",
+    "price": 650,
+    "description": "Thriller novel by Alex Michaelides",
+    "category": "books",
+    "stock": 42,
+    "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=1000&auto=format&fit=crop",
+    "rating": 4.6,
+    "reviews": []
+  }
+]

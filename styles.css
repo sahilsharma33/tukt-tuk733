@@ -1,0 +1,125 @@
+/* Add this to your CSS file */
+
+/* My Profile Section */
+#profile {
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: var(--shadow);
+}
+
+/* Profile Header */
+#profile h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+/* Order Cards */
+.order-card {
+    background-color: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.order-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.order-card .order-id {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 0.75rem;
+}
+
+.order-card .order-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.order-card .order-details p {
+    margin: 0.25rem 0;
+    padding: 0.25rem 0;
+}
+
+/* Order Status Badges */
+.order-status {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.status-processing {
+    background-color: #fef3c7;
+    color: #d97706;
+}
+
+.status-completed {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.status-cancelled {
+    background-color: #fee2e2;
+    color: #dc2626;
+}
+
+/* Payment Status */
+.payment-status {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.payment-pending {
+    background-color: #fef3c7;
+    color: #d97706;
+}
+
+.payment-paid {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.payment-failed {
+    background-color: #fee2e2;
+    color: #dc2626;
+}
+
+/* Order Total */
+.order-total {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+/* Empty Orders Message */
+.empty-orders {
+    text-align: center;
+    padding: 3rem;
+    color: #6b7280;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+    .order-card .order-details {
+        grid-template-columns: 1fr;
+    }
+    
+    #profile {
+        padding: 1rem;
+    }
+}

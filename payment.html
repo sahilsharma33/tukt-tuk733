@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fake Razorpay Payment</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f5f5f5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.payment-box{
+    background:white;
+    width:350px;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+.header{
+    background:#3399cc;
+    color:white;
+    padding:15px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.content{
+    padding:20px;
+}
+
+.amount{
+    font-size:28px;
+    margin-bottom:20px;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    background:#3399cc;
+    color:white;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#287aa3;
+}
+
+.success{
+    display:none;
+    text-align:center;
+    padding:30px;
+}
+
+.success h2{
+    color:green;
+}
+
+.check{
+    font-size:60px;
+    color:green;
+}
+</style>
+</head>
+
+<body>
+
+<div class="payment-box">
+
+<div class="header">
+Razorpay
+</div>
+
+<div class="content" id="paymentForm">
+
+<div class="amount">
+₹499
+</div>
+
+<input type="text" placeholder="Enter UPI ID">
+
+<button onclick="payNow()">
+Pay Now
+</button>
+
+</div>
+
+<div class="success" id="successPage">
+
+<div class="check">
+✔
+</div>
+
+<h2>Payment Successful</h2>
+
+<p>Transaction ID:</p>
+
+<b id="txn"></b>
+
+<br><br>
+
+<button onclick="goHome()">
+Continue Shopping
+</button>
+
+</div>
+
+</div>
+
+<script>
+
+function payNow(){
+
+    document.getElementById("paymentForm").style.display="none";
+
+    document.getElementById("successPage").style.display="block";
+
+    const txnId = "TXN" + Math.floor(Math.random()*100000000);
+
+    document.getElementById("txn").innerText = txnId;
+}
+
+function goHome(){
+
+    window.location.href = "index.html";
+}
+
+</script>
+
+</body>
+</html>
